@@ -1,0 +1,44 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+    
+    max-width: 100%;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color: rgb(165, 242, 166);
+    width: 700px ;
+    padding: 1rem;
+    
+}
+
+.container input{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+
+    
+    
+}
+.container label{
+    font-size: large;
+    font-weight: bold;
+}
+.container button{
+    padding: 0.4rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 140px;
+  
+}
+.container span{
+    padding: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: 700;
+}

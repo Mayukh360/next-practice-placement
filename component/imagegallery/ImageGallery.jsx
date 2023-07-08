@@ -18,6 +18,8 @@ export default function ImageGallery() {
     );
     console.log(response.data.photos);
     setImageData(response.data.photos);
+    
+    
   };
   useEffect(() => {
     if (searchData) {
@@ -28,6 +30,8 @@ export default function ImageGallery() {
     e.preventDefault();
     console.log(searchRef.current.value);
     setSearchData(searchRef.current.value);
+   
+    
   };
   return (
     <div className={classes.container}>
